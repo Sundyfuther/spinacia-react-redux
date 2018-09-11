@@ -7,7 +7,7 @@ const Actions = Object.assign({}, actions)
 export const Connect = (Container) => {
 
   function mapStateToProps(state) {
-    const {isFetching} = state.mainReduce;
+    const {isFetching} = state.AppReducer;
 
     return {
       isFetching

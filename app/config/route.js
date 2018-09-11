@@ -1,8 +1,8 @@
-import Pay from '../containers/Main/index';
+import Main from '../containers/Main/index';
 
 
 const routes = [
-  { path: '/', name: 'Pay', component: Pay },
+  { path: '/', name: 'Main', component: Main },
 ];
 
 export default routes;

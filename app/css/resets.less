@@ -23,144 +23,77 @@ h3,
 h4,
 h5,
 h6 {
-    padding: 0;
-    margin: 0;
-    border: none;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
-    font-family: "PingFangSC-Regular";
-    -webkit-overflow-scrolling: touch !important;
+  padding: 0;
+  margin: 0;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "PingFangSC-Regular";
+  -webkit-overflow-scrolling: touch !important;
 }
 
 input,
 textarea,
 button {
-    background: none;
-    &:focus {
-        outline: none;
-    }
+  background: none;
+
+  &:focus {
+    outline: none;
+  }
 }
 
 body {
-    font: 0.14rem/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
-    color: #040404;
-    background: #F5F7FA;
+  font: 0.14rem/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+  color: #040404;
+  background: #F5F7FA;
 }
 
 html,
 body {
-    width: 100%;
-    height: 100%;
-    -webkit-text-size-adjust: 100%;
-    font-family:PingFang-SC-Regular;
+  width: 100%;
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: PingFang-SC-Regular;
 }
 
 header,
 nav,
 footer,
 article {
-    display: block;
+  display: block;
 }
 
 a {
-    background-color: transparent;
-    -webkit-text-decoration-skip: objects;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
 }
 
 a:active,
 a:hover {
-    outline-width: 0;
+  outline-width: 0;
 }
 
 ::-webkit-input-placeholder {
-    color: inherit;
-    opacity: 0.54;
+  color: inherit;
+  opacity: 0.54;
 }
 
 ::-webkit-file-upload-button {
-    -webkit-appearance: button;
-    font: inherit;
+  -webkit-appearance: button;
+  font: inherit;
 }
 
-.scrolling {
-    overflow-y: scroll !important;
-    -webkit-overflow-scrolling: touch !important;
-}
 ::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
+  width: 0px;
+  height: 0px;
 }
+
 img {
-    border: none;
-    max-width: 100%;
-}
-.in-right-enter-active{
-	transform: translateX(100%);
-  	transition: transform .3s ease-in-out;
-}
-.out-left-leave-active{
-	transform: translateX(-100%);
-  	transition: transform .3s ease-in-out;
-}
-.flex{
-	display: flex;
-	display:-webkit-flex;
-	-webkit-justify-content:space-between;
-	justify-content:space-between;
-	-webkit-align-items:center;
-	align-items:center;
+  border: none;
+  max-width: 100%;
 }
 
-.flex-cont{/*定义为flexbox的父元素*/
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: flex;
-}
-.flex-item{/*给子元素自由伸缩的能力*/
-	-webkit-box-flex: 1;
-	-webkit-flex: 1;
-	flex: 1;
-}
-.flex-center{/*居中*/
-	-webkit-align-items:center;
-	align-items: center;
-	-webkit-justify-content:center;
-	justify-content:center;
-}
-.buttom-{/*下箭头*/
-	transform: rotate(45deg);
-	transform-origin: right;
-    border: 1px solid #999;
-    border-top: transparent;
-    border-left: transparent;
-    width: 0.14rem;
-    height: 0.14rem;
-    margin-left: 0.1rem;
-}
-
-.right-{/*右箭头*/
-	transform: rotate(45deg);
-	transform-origin: center;
-    border: 1px solid #999;
-    border-bottom: transparent;
-    border-left: transparent;
-    width: 7px;
-    height: 7px;
-    margin-left: 5px;
-}
-.digiFontFam {
-	font-family: "PingFangSC-Regular";
-}
-.clearfix:after {
-  content: " ";
-  display: block;
-  clear: both;
-  height: 0;
-}
-.clearfix {
-  zoom: 1;
-}
 i {
   font-style: normal;
 }

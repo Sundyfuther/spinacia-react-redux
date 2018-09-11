@@ -81,7 +81,6 @@ module.exports = {
     "import/no-unresolved": 0,
     "no-new": 0,
     "react/no-string-refs": 0,
-    // 
     "jsx-a11y/no-static-element-interactions": 0,
     "react/self-closing-comp": 0,
     "react/jsx-no-bind": 0,
