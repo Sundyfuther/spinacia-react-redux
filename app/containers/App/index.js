@@ -7,10 +7,10 @@ import './style.less';
 
 class App extends Component {
 
-  static componentWillMount() {
+  componentWillMount() {
     document.body.style.margin = '0px';
     /** ** 始 － 该段代码用于，监听安卓键盘弹起，防止键盘挡住界面内容 *** */
-    if ($$.isAndroid()) {
+    if (/Android/i.test(navigator.userAgent)) {
       const clientHeight = document.documentElement.clientHeight || document.body.clientHeight;
 
       window.addEventListener('resize', () => {

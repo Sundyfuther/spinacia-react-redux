@@ -61,7 +61,7 @@ const request = (type, url, params, postType) => {
           error: reject
         };
 
-        typeof $$.Native.request === 'function' && $$.Native.request(reqBody);
+        window.$$ && typeof window.$$.Native.request === 'function' && window.$$.Native.request(reqBody);
       } else {
         const handler = function () {
           if (this.readyState !== 4) return;

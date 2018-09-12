@@ -1,4 +1,4 @@
-# spinacia-cli
+# spinacia-react-redux
 
 react 16+, webpack 4.0+, react router 4.0+, redux 4.0+
 

@@ -26,7 +26,7 @@ class Main extends Component {
       <OstLoading key='0' isLoading={isFetching} />,
       isFetching
         ? null
-        : <div className="App" key='1'>
+        : <div className="Main" key='1'>
           <img src={SPINACIA} alt=""/>
           <h2>SPINACIA-REACT</h2>
           <span>react with redux</span>
